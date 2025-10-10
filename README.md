@@ -6,7 +6,7 @@ This code example has a three project structure: CM33 secure, CM33 non-secure, a
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc-edge-gfx-rlad)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzkyMDMiLCJTcGVjIE51bWJlciI6IjAwMi0zOTIwMyIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBHcmFwaGljcyB1c2luZyBSTEFEIiwicmlkIjoibmVybGlrYXIiLCJEb2MgdmVyc2lvbiI6IjIuMC4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzkyMDMiLCJTcGVjIE51bWJlciI6IjAwMi0zOTIwMyIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IEVkZ2UgTUNVOiBHcmFwaGljcyB1c2luZyBSTEFEIiwicmlkIjoibmVybGlrYXIiLCJEb2MgdmVyc2lvbiI6IjIuMC4xIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
 
 See the [Design and implementation](docs/design_and_implementation.md) for the functional description of this code example.
 
@@ -44,11 +44,11 @@ Ensure the following jumper and pin configuration on board.
 ### Supported display and electrical connection with KIT_PSE84_EVAL 
 
 - **Waveshare 4.3 inch Raspberry Pi DSI 800*480 display:** <br>
-  Connect the FPC 15-pin cable between the display connector and the PSOC&trade; Edge E84's RPI MIPI DSI connector as outlined in the table below and shown in Figure 1.
+  Connect the FPC 15-pin cable between the display connector and the PSOC&trade; Edge E84's RPi MIPI DSI connector as outlined in the table below and shown in Figure 1.
 
   Display's Connector | PSOC&trade; Edge E84 Evaluation Kit's connector
   ------------------- | ----------------------------------------------------
-  DSI connector       | J38
+  DSI connector       | J39
 
   **Figure 1. Display connection with PSOC&trade; Edge E84 evaluation kit**
 
@@ -112,7 +112,8 @@ Document title: *CE239203* – *PSOC&trade; Edge MCU: Graphics using RLAD*
  Version | Description of change
  ------- | ---------------------
  1.x.0   | New code example <br> Early access release
- 2.0.0   | GitHub release 
+ 2.0.0   | GitHub release
+ 2.0.1   | README updates  
 <br>
 
 
