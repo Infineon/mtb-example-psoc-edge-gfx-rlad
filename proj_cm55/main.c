@@ -176,6 +176,9 @@ int main(void)
         /* Enable the I2C */
         Cy_SCB_I2C_Enable(CYBSP_I2C_CONTROLLER_HW);
 
+        /* Allow I2C to be stabalized to initialize the display */
+        Cy_SysLib_Delay(DISP_DELAY_MS);
+
         /* Initialize the display */
         panel_status = mtb_disp_waveshare_4p3_init(CYBSP_I2C_CONTROLLER_HW,
                                                     &disp_i2c_controller_context);
